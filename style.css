@@ -1,0 +1,165 @@
+
+p {
+    line-height: 1.6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+ 
+/* ---------- Task 4: Class selector ---------- */
+.classname {
+    color: #2E86AB;
+    font-style: italic;
+}
+ 
+/* ---------- Task 4: ID selector ---------- */
+#idname {
+    color: #E63946;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+ 
+/* ---------- Task 5: Class reused on several elements ---------- */
+.highlight {
+    background-color: #FFE066;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+ 
+/* ---------- Task 5: ID for the main heading ---------- */
+#main-heading {
+    color: #1CAC78;
+    font-size: 2.5rem;      /* Task 10: rem unit */
+    text-align: center;
+}
+ 
+/* ---------- Task 7: Divs grouping page sections ---------- */
+.header {
+    background-color: #F1FAEE;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.main-content {
+    background-color: #FFFFFF;
+    padding: 20px 5%;       /* Task 10: % unit */
+}
+ 
+.footer {
+    background-color: #264653;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;       /* Task 8: margin */
+}
+ 
+/* ---------- Task 8: Box model demo (table) ---------- */
+table {
+    width: 100%;
+    margin: 20px auto;      /* Task 8: margin */
+    border-collapse: collapse;
+}
+ 
+th,
+td {
+    border: 1px solid #457B9D;  /* Task 8: border */
+    padding: 10px;               /* Task 8: padding */
+    text-align: left;
+}
+ 
+th {
+    background-color: #A8DADC;
+}
+ 
+/* ---------- Task 10: image sizing ---------- */
+img {
+    max-width: 100%;         /* Task 10: % unit */
+    border: 3px solid #1CAC78;
+    border-radius: 8px;
+}
+ 
+/* ---------- Task 9: CSS Positioning demo ---------- */
+.position-demo {
+    position: relative;
+    min-height: 220px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed #999999;
+}
+ 
+/* static: default flow (explicitly declared for clarity) */
+.static-box {
+    position: static;
+    background-color: #A8DADC;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ 
+/* relative: shifted from its normal position */
+.relative-box {
+    position: relative;
+    top: 15px;
+    left: 30px;
+    background-color: #F4A261;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ 
+/* absolute: taken out of flow, positioned against .position-demo */
+.absolute-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 220px;
+    background-color: #E76F51;
+    color: #FFFFFF;
+    padding: 10px;
+}
+ 
+/* ---------- Task 11: Float and clear ---------- */
+.float-container {
+    margin: 20px 0;
+}
+ 
+.float-box-left {
+    float: left;
+    width: 45%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background-color: #2A9D8F;
+}
+ 
+.float-box-right {
+    float: right;
+    width: 45%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background-color: #E76F51;
+}
+ 
+/* clears the float so following content doesn't overlap */
+.clearfix {
+    clear: both;
+}
+ 
+/* ---------- Extras: buttons & form ---------- */
+button {
+    background-color: #1CAC78;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;          /* Task 10: em unit */
+}
+ 
+button:hover {
+    background-color: #178A5F;
+}
+ 
+form input {
+    margin: 5px 0 15px 5px;
+    padding: 6px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
